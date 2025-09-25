@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Veloura Login</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS overrides -->
+    <style>
+        /* Center + enlarge logo + move closer */
+        .logo {
+            display: block;
+            margin: 10px auto 15px auto; /* smaller bottom margin */
+            width: 200px; /* increase size */
+            height: auto;
+        }
+
+        /* Footer styling */
+        footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            color: #6C1B3B;
+        }
+    </style>
+</head>
+<body>
+    <img src="images/logo1.png" alt="Veloura Logo" class="logo">
+
+    <div class="login-container">
+        <h2>Veloura Login</h2>
+        <form action="main.php" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <footer>
+        © All Rights Reserved
+    </footer>
+</body>
+</html>

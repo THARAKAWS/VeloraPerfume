@@ -1,0 +1,278 @@
+/* =========================
+   General Body
+========================= */
+body {
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to bottom, #FAF8F6, #F7D6D0); /* soft blush gradient */
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* =========================
+   Left-aligned forms
+========================= */
+.left-align-form {
+    text-align: left;
+    margin: 20px 0;
+    max-width: 1200px; /* wider width for luxury feel */
+}
+
+/* =========================
+   Login Page
+========================= */
+.login-container {
+    width: 350px;
+    margin: 10px auto;
+    padding: 30px;
+    background-color: #F7D6D0;
+    border: 2px solid #D4AF37;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+.login-container h2 {
+    color: #6C1B3B;
+    text-align: center;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+}
+
+.login-container button {
+    background-color: #6C1B3B;
+    color: #FDE8A9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #BFA5D1;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   Headings
+========================= */
+h1, h2 {
+    color: #6C1B3B;
+    text-align: left; /* left-aligned headings */
+}
+
+/* =========================
+   Gallery grid
+========================= */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start; /* left-aligned gallery */
+    margin: 20px 0;
+}
+
+.product-card {
+    background-color: #F7D6D0;
+    border: 2px solid #D4AF37;
+    border-radius: 12px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card img {
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid #D4AF37;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.5);
+}
+
+/* =========================
+   Product Descriptions
+========================= */
+.product-desc {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #333333;
+    margin: 10px 0;
+    font-size: 0.95rem;
+}
+
+/* =========================
+   Forms (Search & Category)
+========================= */
+form.left-align-form input[type="text"] {
+    width: 1000px; /* large input for luxury feel */
+    padding: 10px;
+    border: 1px solid #D4AF37; /* gold border */
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+form.left-align-form button {
+    background-color: #6C1B3B; /* Deep Burgundy */
+    color: #FDE8A9; /* Soft Gold Glow */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form.left-align-form button:hover {
+    background-color: #BFA5D1; /* Lavender hover */
+}
+
+/* =========================
+   Flags
+========================= */
+.flag {
+    color: #D4AF37;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+/* =========================
+   Product Page (product.php)
+========================= */
+.product-page {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #F7D6D0;
+    border: 2px solid #D4AF37;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.3);
+    text-align: center;
+}
+
+.product-page h1 {
+    color: #6C1B3B;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.product-page img {
+    width: 400px;
+    max-width: 90%;
+    border-radius: 12px;
+    border: 2px solid #D4AF37;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+    transition: transform 0.3s;
+}
+
+.product-page img:hover {
+    transform: scale(1.05);
+}
+
+.product-page p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333333;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.product-page a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6C1B3B;
+    color: #FDE8A9;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.product-page a:hover {
+    background-color: #BFA5D1;
+}
+
+/* =========================
+   Header Section
+========================= */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #F7D6D0, #FAF8F6); /* luxury soft blend */
+    border-bottom: 2px solid #D4AF37; /* gold divider */
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+header .logo img {
+    height: 100px;
+ 
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    color: #6C1B3B; /* Burgundy */
+    font-size: 32px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.brand-tagline {
+    color: #D4AF37; /* Soft Gold */
+    font-size: 14px;
+    font-style: italic;
+    margin: 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6C1B3B; /* Burgundy links */
+}
+
+nav a:hover {
+    color: #D4AF37; /* Gold hover */
+}
+
+.welcome {
+    margin: 20px;
+    font-size: 35px;
+    color: #6C1B3B;
+}
+
+.brand-description {
+    color: #6C1B3B;
+    margin: 0 20px 30px 20px;
+    max-width: 1000x;
+    line-height: 1.6;
+}
